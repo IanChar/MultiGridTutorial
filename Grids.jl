@@ -1,3 +1,4 @@
+
 function ModelProblem1D(sigma, L)
     num_intervals = 2 ^ L
     sigma_h_squared = sigma * (1 / num_intervals) ^ 2
@@ -56,8 +57,7 @@ function test2DModel()
     print(mat)
 end
 
-function main()
+function GridsMain()
     test1DModel()
 end
 
-main()

@@ -88,7 +88,7 @@ end
 
 
 
-function main()
+function SmoothersMain()
   print(weigthedJacobi(testA, testB, zeros(4), 20, 2 / 3))
   print("\n")
   print(gaussSeidel(testA, testB, zeros(4), 100))
@@ -97,4 +97,3 @@ function main()
   print("\n")
 end
 
-main()
